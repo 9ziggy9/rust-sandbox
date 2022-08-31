@@ -1,2 +1,23 @@
 * Reading through "The Book"
 Just trying to learn Rust.
+** Chapter 1
+Recap:
+*** We can create a project using
+#+BEGIN_SRC console
+cargo new
+#+END_SRC
+*** We can build a project using
+#+BEGIN_SRC console
+cargo build
+#+END_SRC
+*** We can build and run in one step using
+#+BEGIN_SRC console
+cargo run
+#+END_SRC
+
+*** We can build a project without producing a binary to check for errors using
+#+BEGIN_SRC console
+cargo check
+#+END_SRC
+
+*** Cargo stores build in the target/debug directory
