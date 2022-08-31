@@ -1,0 +1,2 @@
+* Reading through "The Book"
+Just trying to learn Rust.
