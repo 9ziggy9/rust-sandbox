@@ -20,6 +20,9 @@ fn main() {
     // An associated function is a function implemented on
     // a type--how analogous is this to class methods?
 
+    // Notice the passing of guess by ref--mut flag means
+    // we can change the value there. THIS IS NOT A POINTER.
+    // This is called "borrowing".
     io::stdin()
         .read_line(&mut guess)
         .expect("Failed to read line");
