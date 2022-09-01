@@ -1,5 +1,11 @@
 * Reading through "The Book"
 Just trying to learn Rust.
+** DO NOT FORGET
+*** Incredible Documentation, OMG
+You won’t just know which traits to use and which methods and functions to call from a crate, so each crate has documentation with instructions for using it. Another neat feature of Cargo is that running the cargo doc --open command will build documentation provided by all of your dependencies locally and open it in your browser. If you’re interested in other functionality in the rand crate, for example, run cargo doc --open and click rand in the sidebar on the left.
+** FOREWARD (order of operations)
+- hello_world
+- guessing_game
 ** Chapter 1
 Recap:
 *** We can create a project using
